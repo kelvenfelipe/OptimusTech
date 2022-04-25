@@ -19,16 +19,31 @@ body {
 }
 
 .navegacao__div {
+    background-image: url(../Imagens/_Button\ base.svg);
+    background-repeat: no-repeat;
+    background-position-x: 6rem;
+    background-position-y: 1.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+
+    width: 95%;
+    margin: 0 auto;
+}
+
+.div__links {
+    margin-left: 20%;
 }
 
 .div__links a {
     color: var(--color-gray-2);
     margin-right: 2rem;
     text-decoration: none;
+}
+
+.div__button {
+    margin-right: 6%;
 }
 
 .div__button button{
