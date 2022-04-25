@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+    /* navegação*/
+    .navegacao__div img{
+        display: none;
+    }
+
+    .navegacao__div{}
+
+    /* cabecalho */
+    .secao__cabecalho {
+        width: 690px;
+        margin: 0 auto;
+    }
+
+    /* metricas/vagas */
+    .div__metricas__imagem img {
+        width: 690px;
+    }
+
+    /* vagas */
+    .div__vagas {
+       width: 690px;
+       margin: 0 auto 1rem;
+    }
+
+    .vagas h3 {
+        padding-left: 2.25rem;
+        margin: 3rem 0 1rem;
+    }
+
+    /* depoimentos */
+    .depoimentos__container {
+        width: 768px;
+    }
+
+    .descricao__container {
+        width: 768px;
+    }
+
+    .descricao__container p {
+        font-size: 1.7rem;
+    }
+
+    .pessoa__container {
+        width: 768px;
+    }
+
+    /* formularios */
+    .div__form {
+        width: 768px;
+    }
+}
+
+/***********************/
+
+@media (max-width: 425px) {
+    /* navegação*/
+    .navegacao__div img{
+      display: none;
+  }
+
+  .navegacao__div{
+      flex-direction: column;
+      margin-top: .5rem;
+  }
+
+  .div__links a{
+      margin-right: 1.3rem;  
+  }
+
+  .div__links {
+      margin-bottom: 2.5rem;
+  }
+
+  /* cabecalho */
+  .secao__cabecalho {
+      width: 393px;
+      margin: 0 auto;
+  }
+
+  .secao__cabecalho:nth-child(2){
+      font-size: 1.2rem ;
+  }
+
+  /* metricas */
+  .secao__metricas__container {
+      flex-direction: column;
+  }
+
+  .container__projetos, .container__colaboradores, .container__downloads, .container__reviews {
+      width: 100%;
+      text-align: center;
+  }
+
+  .container__projetos, .container__colaboradores, .container__downloads {
+      margin-bottom: 1rem;
+  }
+
+  /* metricas/vagas */
+  .div__metricas {
+    width: 393px;
+    margin: 0 auto;
+  }
+
+  .div__metricas__imagem img {
+      width: 425px;
+  }
+
+  .div__metricas h2 + p  {
+      font-size: 2.2rem;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+  }
+
+  .div__metricas p:last-child {
+      margin-bottom: 2rem;
+  }
+
+  /* vagas */
+  .vagas {
+      width: 425px;
+  }
+
+  .div__vagas {
+     width: 393px;
+     margin: 0 auto 1rem;
+  }
+
+  .vagas h3 {
+      padding-left: 1rem;
+  }
+
+  /* depoimentos */
+  .depoimentos__container {
+      width: 425px;
+  }
+
+  .descricao__container {
+      width: 425px;
+  }
+
+  .descricao__container p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+  }
+
+  .descricao__container p, h2 {
+      padding: 0 .7rem;
+  }
+
+  .pessoa__container {
+      width: 425px;
+  }
+
+  /* formularios */
+  .div__form {
+      width: 425px;
+      margin-bottom: 5rem;
+  }
+
+  .div__form p {
+      font-size: 1rem;
+  }
+
+  #email {
+      width: 220px;
+  }
+}
