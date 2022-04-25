@@ -19,7 +19,7 @@ body {
 }
 
 .navegacao__div {
-    background-image: url(../Imagens/_Button\ base.svg);
+    background-image: url(/Imagens/_Button\ base.svg);
     background-repeat: no-repeat;
     background-position-x: 6rem;
     background-position-y: 1.5rem;
