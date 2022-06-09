@@ -19,10 +19,6 @@ body {
 }
 
 .navegacao__div {
-    background-image: url(../Imagens/_Button\ base.svg);
-    background-repeat: no-repeat;
-    background-position-x: 6rem;
-    background-position-y: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +28,23 @@ body {
     margin: 0 auto;
 }
 
+.div__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+
+}
+
+.div__logo span {
+    color: var(--color-gray-2);
+    font-size: 1.2rem;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
 .div__links {
-    margin-left: 20%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .div__links a {
